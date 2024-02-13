@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.test{
+    color: blue;
+    cursor: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Twemoji12_1f602.svg/800px-Twemoji12_1f602.svg.png"),auto;
+}
+
+.container{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    
+    border: 2px solid purple;   
+}
+.box{
+    padding: 20px;
+    background-color: lightcoral;
+    width: 120px;
+    height: 110px;
+}
+.box2{
+    background-color: lightblue;
+}
+.box3{
+    background-color: skyblue;
+}
+
