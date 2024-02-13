@@ -1,0 +1,10 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.test{
+    color: blue;
+    cursor: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Twemoji12_1f602.svg/800px-Twemoji12_1f602.svg.png"),auto;
+}
