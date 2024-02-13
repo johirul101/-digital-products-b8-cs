@@ -51,6 +51,10 @@
 
     height: 100vh;
     background-image: url("../images/background.png"), linear-gradient(45deg, rgba(0, 0, 0, 0.932), rgba(0, 0, 0, 0.74));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
     color: white;
 }
 .title{
@@ -81,3 +85,21 @@
     width: 300px;
 }
 /* banner style ends here  */
+/* ============================================================================================== */
+/* abour section style starts here  */
+.about-title{
+    text-align: center;
+    padding: 20px 0px 0px;
+    text-shadow: 4px 4px 3px gray;
+}
+.about-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    
+    padding: 15px 0px 0px;
+    height: 60vh;
+}
+
+/* abour section style ends here  */
