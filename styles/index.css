@@ -3,6 +3,8 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
+/* nab bar style starts here  */
 .menu-container{
     background-color: black;
     padding: 20px;
@@ -39,3 +41,43 @@
 
     margin: 0px 10px;
 }
+/* nab bar style ends here  */
+/* =================================================================================== */
+/* banner style starts here  */
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 100vh;
+    background-image: url("../images/background.png"), linear-gradient(45deg, rgba(0, 0, 0, 0.932), rgba(0, 0, 0, 0.74));
+    color: white;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin: 15px 0px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.btn a{
+    text-decoration: none;
+    color:white;
+
+}
+.btn:hover{
+    background-color: red;
+}
+.banner-img{
+    width: 300px;
+}
+/* banner style ends here  */
