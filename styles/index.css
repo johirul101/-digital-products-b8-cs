@@ -103,3 +103,44 @@
 }
 
 /* abour section style ends here  */
+/* ============================================================================================== */
+
+/* our service section style starts here  */
+.our-service-section{
+    background-image: url("../images/background.png"),linear-gradient(45deg, rgba(0, 0, 0, 0.925), rgba(0, 0, 0, 0.863));
+    color: white;
+    height: 80vh;
+
+    
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.box{
+    width: 250px;
+    height: 400px;
+    background-color: rgb(2, 2, 2);
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+    box-shadow: 8px 6px 10px gray;
+    border-radius: 10px;
+
+}
+.icon{
+    width: 100px;
+    padding: 20px 0px;
+    border: 2px solid white;
+}
+.box-title{
+    padding-top: 20px;
+}
+.description-wrap{
+    text-wrap: wrap;
+}
+
+/* our service section style ends here  */
